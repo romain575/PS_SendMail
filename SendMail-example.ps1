@@ -41,3 +41,5 @@ $params = @{
     To = 'to-address@example.com'
     SmtpServer = 'smtp-server@example.com' 
 }
+
+Send-MailMessageFonction @params
